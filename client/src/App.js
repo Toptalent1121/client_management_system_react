@@ -78,6 +78,7 @@ class App extends Component {
                 <TableCell>Birth</TableCell>
                 <TableCell>Gender</TableCell>
                 <TableCell>Job</TableCell>
+                <TableCell>Setting</TableCell>
               </TableRow>
             </TableHead>
             <TableBody>
@@ -92,6 +93,7 @@ class App extends Component {
                       birthday = {customer.birthday}
                       gender = {customer.gender}
                       job = {customer.job}
+                      stateRefresh = {this.stateRefresh}
                     />
                   )
                 }) : 
